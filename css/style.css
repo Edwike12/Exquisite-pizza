@@ -1,0 +1,11 @@
+.homepage{
+    border: 10px outset;    
+    text-align: center;
+    background-image: url(images/img1.jpg); 
+    color: white;
+    min-height: 500px;
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+}
