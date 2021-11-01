@@ -38,7 +38,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-image: url(https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f98cbc2af157b759b3a6272%2FPanera-pizza%2F960x0.jpg%3Ffit%3Dscale); 
-    height: 50vh;
+    height: 70vh;
 }
 
 #btn2{
@@ -54,6 +54,12 @@
 #order h2{
     text-align: center;
     color: mediumaquamarine;
+    margin-top: 8%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:70px; 
 }
-
+h3{
+    text-align: center;
+    font-weight: bolder;
+}
 
