@@ -19,7 +19,7 @@ if((selectedValue == "0") && (selectedCrust == "0") &&(selectedToppings =="0")){
     console.log("nothing selected");
     $("button.proceed").show();
     $("#parseInt").show();
-        alert("Please select pizza size and crust"); 
+    alert("Please select pizza size and crust"); 
   }
   else{
     $("button.proceed").hide();
@@ -27,7 +27,7 @@ if((selectedValue == "0") && (selectedCrust == "0") &&(selectedToppings =="0")){
   }
 function getTotalAmount(){
     var totalAmount = (getSizeValue() + getCrust() + getToppings()); 
-    alert("You have Ordered" + getType("")  +  " pizza."  +  ""  +  " The Total Amount is kshs "  +  (totalAmount)  +  ""  +  " Thank you for your order welcome again.");
+    alert("You have Ordered" + getType("selectedType")  +  " pizza."  +  ""  +  " The Total Amount is kshs "  +  (totalAmount)  +  ""  +  " Thank you for your order welcome again.");
     prompt("enter your location")
     alert("You delivery fee is 150/=")
     alert("You order will be delivered shortly")
