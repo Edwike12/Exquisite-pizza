@@ -15,7 +15,7 @@ function getToppings(){
     return parseInt (selectedToppings);
 }
 function getQuantity() {
-    var selectedQuantity = document.getElementById("quan").value;
+    var selectedQuantity = document.getElementById("quantity").value;
     return parseInt(selectedQuantity);
 }
 
