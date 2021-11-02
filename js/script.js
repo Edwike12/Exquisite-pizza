@@ -15,6 +15,16 @@ function getToppings(){
     return parseInt (selectedToppings);
 }
 
+if((selectedValue == "0") && (selectedCrust == "0") &&(selectedToppings =="0")){
+    console.log("nothing selected");
+    $("button.proceed").show();
+    $("#parseInt").show();
+        alert("Please select pizza size and crust"); 
+  }
+  else{
+    $("button.proceed").hide();
+    $("#parseInt").hide();
+  }
 function getTotalAmount(){
     var totalAmount = (getSizeValue() + getCrust() + getToppings()); 
     alert("You have Ordered" + getType("")  +  " pizza."  +  ""  +  " The Total Amount is kshs "  +  (totalAmount)  +  ""  +  " Thank you for your order welcome again.");
