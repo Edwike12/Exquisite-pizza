@@ -1,16 +1,26 @@
 # Project-Name
+EXQUISITE PIZZA
 
-Write the project description here...
+# AUTHOR
+EDWIKE NYAUNCHO
+
+# PROJECT-DESCRIPTION
+This is a pizza delivery website that allows the user to select the pizza type, size, crust ,toppings and number of pizza then the application calculates the price plus delivery fee.
 
 
 ## Technologies Used
 
-- Add technologies you may have used in the project e.g HTML & CSS (Bootstrap)
+- HTML 
+- CSS (Bootstrap)
+- JavaScript
+-JQuery
 
 
 ##### Setup Instructions and Installation
 
-- Explain steps to clone, install and run the application on a local machine.
+- clone this repository https://github.com/Edwike12/Exquisite-pizza.git
+- open terminal to work in Exquisite pizza directory 
+- open idex.html in your browser
 
 
 ## Development
@@ -37,7 +47,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 ### License
 
 *MIT*
-Copyright (c) 2021 **Your name**
+Copyright (c) 2021 **EDWIKE NYAUNCHO**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
