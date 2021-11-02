@@ -14,6 +14,10 @@ function getToppings(){
     var selectedToppings = document.getElementById("toppings").value;
     return parseInt (selectedToppings);
 }
+function getQuantity() {
+    var selectedQuantity = document.getElementById("quan").value;
+    return parseInt(selectedQuantity);
+}
 
 if((selectedValue == "0") && (selectedCrust == "0") &&(selectedToppings =="0")){
     console.log("nothing selected");
@@ -26,7 +30,7 @@ if((selectedValue == "0") && (selectedCrust == "0") &&(selectedToppings =="0")){
     $("#parseInt").hide();
   }
 function getTotalAmount(){
-    var totalAmount = (getSizeValue() + getCrust() + getToppings()); 
+    var totalAmount = (getSizeValue() + getCrust() + getToppings() *getQuantity()); 
     alert("You have Ordered" + getType("selectedType")  +  " pizza."  +  ""  +  " The Total Amount is kshs "  +  (totalAmount)  +  ""  +  " Thank you for your order welcome again.");
     prompt("enter your location")
     alert("You delivery fee is 150/=")

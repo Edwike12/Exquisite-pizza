@@ -7,10 +7,11 @@ EDWIKE NYAUNCHO
 # PROJECT-DESCRIPTION
 This is a pizza delivery website that allows the user to select the pizza type, size, crust ,toppings and number of pizza then the application calculates the price plus delivery fee.
 
-## Screenshot
- ![homepage screenshot](./home/edwik/Documents/moringa-school-projects/Exquisite-pizza/images/homepage screenshot.png)
 
- 
+## Screenshot
+<img src="/home/edwik/Documents/moringa-school-projects/Exquisite-pizza/images/homepage screenshot.png">
+
+
 ## Technologies Used
 
 - HTML 
